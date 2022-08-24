@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./resources/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Aristides Instruments</title>
+</head>
+<body>
+  <header>
+    <div class="logo">  <!--Remember class=logo is used in the footer too-->
+      <a href="./index.html"><img src="./resources/images/logo-icon.svg" alt="Aristides logo"></a>
+    </div>
+    <nav class="desktop">
+      <ul>
+        <li><a href="#history">History</a></li>
+        <li><a href="#guitars">Guitars</a></li>
+        <li><a href="#artists">Artists</a></li>
+      </ul>
+    </nav>  
+    <!-- This section will drop down from the right on smaller screens -->
+    <!-- <nav class="mobile">
+        <ul>
+          <li><a href="#history">History</a></li>
+          <li><a href="#guitars">Guitars</a></li>
+          <li><a href="#artists">Artists</a></li>
+        </ul>
+    </nav> -->
+    <nav class="mobile">
+      <div class="dropdown">
+        <button class="dropbtn">&#9776;</button>
+        <div class="dropdown-content">
+          <a href="#history">History</a>
+          <a href="#guitars">Guitars</a>
+          <a href="#artists">Artists</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>Aristides Instruments</h1>
+    </section>
+
+    <section id="history" class="history">
+      <h2>History</h2>
+      <p>In 1995, a team of Dutch scientists, working in collaboration with Technical University Delft, started work on a unique mission: develop a material with perfect acoustic properties. The primary emphasis being on resonance and sustain.</p>
+      <br>
+      <p>Research began where instruments began: wood. By researching many species of top-quality wood, they were able to identify the differences and similarities of the cell structures. The question arose, “What happens to sound waves in a material at a cellular level?” That question was answered, leading to the creation of the ideal cell structure.</p>
+      <br>
+      <p>The result of these 15 years is Arium, the perfect tonal material. Combine that with a revolutionary one-piece construction, and the result is an instrument in which sound is able to travel uninhibited in 3 dimensions, for the ultimate performance in resonance, sustain, clarity, and articulation.</p>
+    </section>
+
+    <section id="guitars" class="guitars">
+      <h2>Guitars</h2>
+      <div class="guitar-container">
+        <figure>
+          <img src="./resources/images/060-Oxblood-Leather-Matte-Front-750x422.jpg" alt="060">
+          <figcaption>060</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/060s purple sparkle.jpeg" alt="060s">
+          <figcaption>060s</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/070 pink.jpeg" alt="070">
+          <figcaption>070</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/070s funky.jpeg" alt="070s">
+          <figcaption>070s</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/080-Purple-Sparkle-Burst-750x422.jpg" alt="080">
+          <figcaption>080</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/080s aqua.jpeg" alt="080s">
+          <figcaption>080s</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/TO splatter.jpeg" alt="T/0">
+          <figcaption>T/0</figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/HO6 lilac.jpeg" alt="H/0">
+          <figcaption>H/0</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="artists" class="artists">
+      <h2>Artists</h2>
+      <div class="artist-container">
+        <figure>
+          <img src="./resources/images/Ihsahn-300x200.jpg" alt="Image of Ihsahn playing Aristides 020">
+          <figcaption>
+            <p class="name">Ihsahn</p>
+            <p class="band">Emperor / Ihsahn</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/aristides_Mike_Stringer_pHOTO-300x200.jpg" alt="Image of Mike Stringer">
+          <figcaption>
+            <p class="name">Mike Stringer</p>
+            <p class="band">Spiritbox</p>
+          </figcaption>
+          
+        </figure>
+        <figure>
+          <img src="./resources/images/ZachHouseholder2-300x200.jpg" alt="Image of Zach Householder">
+          <figcaption>
+            <p class="name">Zach Householder</p>
+            <p class="band">Whitechapel</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./resources/images/vollelunga-300x300.jpg" alt="Image of Mark Vollelunga">
+          <figcaption>
+            <p class="name">Mark Vollelunga</p>
+            <p class="band">Nothing More</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>Copyright Aristides Instruments 2022 &copy;</p>
+    </div>
+    <!-- Remember the class=logo is used in the header too -->
+    <div class="logo">
+      <a href="./index.html"><img src="./resources/images/logo-icon.svg" alt="Aristides logo"></a>
+    </div>
+    <!-- May need to make the socials an unordered list -->
+    <!-- <div class="socials">
+      <ul>
+        <li><a href="https://www.instagram.com/aristidesguitars/" target="_blank"><img src="./resources/images/instagram-aristides.svg" alt="Instagram logo"></a></li>
+        <li><a href="https://twitter.com/AristidesGuitar" target="_blank"><img src="./resources/images/twitter-aristides.svg" alt="Twitter logo"></a></li>
+        <li><a href="https://www.facebook.com/aristidesinstruments/?fref=ts" target="_blank"><img src="./resources/images/facebook-aristides.svg" alt="Facebook logo"></a></li>
+        <li><a href="https://www.youtube.com/user/AristidesInstruments" target="_blank"><img src="./resources/images/youtube-aristides.svg" alt="YouTube logo"></a></li>
+      </ul>  
+    </div> -->
+
+  <div class="socials">
+      <a href="https://www.instagram.com/aristidesguitars/" target="_blank"><img src="./resources/images/instagram-aristides.svg" alt="Instagram logo"></a>
+      <a href="https://twitter.com/AristidesGuitar" target="_blank"><img src="./resources/images/twitter-aristides.svg" alt="Twitter logo"></a>
+      <a href="https://www.facebook.com/aristidesinstruments/?fref=ts" target="_blank"><img src="./resources/images/facebook-aristides.svg" alt="Facebook logo"></a>
+      <a href="https://www.youtube.com/user/AristidesInstruments" target="_blank"><img src="./resources/images/youtube-aristides.svg" alt="YouTube logo"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
